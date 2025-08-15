@@ -1,0 +1,15 @@
+:root {
+  --bg: #0b0d0f;
+  --surface: #111418;
+  --surface-2: #151921;
+  --text: #e6e7eb;
+  --muted: #a8acb3;
+  --brand: #e31e24; /* Eagle red */
+  --brand-600: #c9181b;
+  --brand-700: #a91517;
+  --outline: #262a31;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 10px 24px rgba(0,0,0,.35);
+  --container: 1180px;
+}
