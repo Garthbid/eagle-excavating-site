@@ -11,13 +11,9 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const phoneIntl = '+17803072815'
-
   return (
     <header style={{position:'sticky', top:0, zIndex:40}}>
-      <div className={
-        'container'
-      }>
+      <div className="container">
         <nav className={'nav ' + (scrolled ? 'scrolled' : '')}>
           <div className="left">
             <a href="#" className="brand" aria-label="Eagle Excavating home">
@@ -33,7 +29,14 @@ export default function Header() {
             <a href="#process">Process</a>
             <a href="#safety">Safety</a>
             <a href="#contact">Contact</a>
-            <a className="btn" href={`tel:${phoneIntl}`}>Call 780-307-2815</a>
+            <a
+              className="btn"
+              href="https://buy.stripe.com/6oU28q6Qf17zdck1QP9R600"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Own this site
+            </a>
           </div>
         </nav>
       </div>
